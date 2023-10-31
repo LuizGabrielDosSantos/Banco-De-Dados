@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.titulo-banco {
+    font-size: 50px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.menu-navegacao {
+    text-align: center;
+    font-size: 15px;
+}
+
+.menu-navegacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-navegacao li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu-navegacao li {
+    background-color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    border-radius: 10px;   
+}
+
+.tabela{
+    margin: 0 auto;
+    border: 2px solid white; 
+    border-radius: 10px;
+}
+
+.rodape{
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 4px 5px;
+}
