@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banco de Dados</title>
+    <link rel="stylesheet" type="text/css" href="LG.css">
+</head>
+<body>
+    <h1 class="titulo-banco">Banco de Dados</h1>
+    <nav class="menu-navegacao">
+        <ul>
+            <li><a href="#adicionar">Adicionar</a></li>
+            <li><a href="#alterar">Alterar</a></li>
+            <li><a href="#excluir">Excluir</a></li>
+        </ul>
+    </nav>
+    <br>
+   
+    <table class="tabela">
+        <caption>Pessoas Cadastradas</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Endereço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Luiz</td>
+                <td>Vila Rural</td>
+                <td>Q 1 L 9</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>Andira</td>
+                <td>Av 170</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <section id="adicionar">
+        <h2>Adicionar Informações</h2>
+        <form>
+            <label for="nome ">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade">
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+<br> 
+    <section id="alterar">
+        <h2>Alterar Informações</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade">
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <button type="submit">Alterar</button>
+        </form>
+    </section>
+<br>
+    <section id="excluir">
+        <h2>Excluir Informações</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <button type="submit">Excluir</button>
+        </form>
+        <br>
+    </section>
+    <footer class="rodape">
+        <div class="informacoes-contato">
+            <p>Email: lgluizdossantos@email.com</p>
+            <p>Telefone: (18) 98145-5479</p>
+        </div>
+        <div class="informacoes-criador">
+            <p>Criado por: Luiz Gabriel</p>
+        </div>
+        <div class="configuracoes">
+            <a href="#configuracoes">Configurações</a>
+        </div>
+    </footer>
+
+</body>
+</html>
